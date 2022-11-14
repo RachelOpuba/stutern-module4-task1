@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid brown;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#ordered-list,
+#unordered-list {
+  font-size: 18px;
+  padding: 2rem;
+  height: 100%;
+  border: 2px solid green;
+  color: blue;
+}
+
+.or-list,
+.un-list {
+  font-size: 20px;
+  padding: 1rem;
+  height: 50%;
+  color: green;
+  border: 2px dotted blue;
+}
+
+#or-1,
+#or-2,
+#or-3,
+#or-4,
+#or-5 {
+  color: purple;
+  margin-bottom: 5px;
+}
+
+.or-list-items {
+  color: red;
+  margin-bottom: 10px;
+}
+
+#un-1,
+#un-2,
+#un-3,
+#un-4,
+#un-5 {
+  margin-bottom: 5px;
+}
+
+.un-items {
+  margin-bottom: 10px;
+}
